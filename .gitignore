@@ -1,0 +1,26 @@
+cat >> .gitignore << 'EOF'
+
+# Environment
+.env
+.env.backup
+.env.production
+
+.postman/
+postman/
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Submission Zips
+*.zip
+
+# AWS / Storage keys
+*.pem
+*.key
+storage/app/private/
+
+# Logs
+storage/logs/*.log
+EOF
