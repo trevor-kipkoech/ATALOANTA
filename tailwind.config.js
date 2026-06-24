@@ -14,6 +14,7 @@ module.exports = {
       animation: {
         shimmer: 'shimmer 1.8s ease-in-out infinite',
       },
+      
       keyframes: {
         shimmer: {
           '0%': { backgroundPosition: '-200% 0' },
